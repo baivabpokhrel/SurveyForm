@@ -1,7 +1,8 @@
 
 body{
     
-    background-color:burlywood;
+    background-color:aquamarine;
+    margin:50px;
     
 }
 #title{
@@ -12,7 +13,9 @@ body{
     text-align: center;
     font-size: 2em;
 }
-
+#survey-form{
+    background-color:azure;
+}
 div{
     display:grid;
     grid-template-columns: 1fr 1fr; 
