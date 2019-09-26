@@ -1,5 +1,4 @@
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 @import url(https://fonts.googleapis.com/css?family=Mansalva:400,500);
 @import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,500);
@@ -28,7 +27,7 @@ body{
 }
 div{
     display:grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr ; 
     
     
 }
@@ -46,11 +45,12 @@ label{
   input,select{
     
     height: 25px;
-    width: 200px;
+    width: 250px;
     margin: 5px;
     font-family: 'Arvo';
     
   }
+  
   textarea{
     
     height: 50px;
@@ -61,14 +61,15 @@ label{
   
   
   button{
-    height: 20px;
-    width:80px;
+    height: 25px;
+    width:90px;
     margin: 8px;
     font-family: 'Arvo';
   }
 
   
 
+  
 
 
 

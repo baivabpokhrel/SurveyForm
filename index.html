@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <h1 id="title">Survey Form</h1>
+    <h1 id="title">Survey</h1>
     <p id="description">
        This is a survey for a Guitar Store 
     </p>
@@ -30,11 +30,11 @@
                 <input id="age" type="number" palceholder= "Age"  min=1 max=120>
         </div>
         <div id="dropdown-type">
-            <label id="dropdown-type-label"> Which type of guitar do you play?</label>
+            <label id="dropdown-type-label"> What type of guitar do you play?</label>
             <select>
                 <option >Select One</option>
                 <option>Accoustic</option>
-                <option>Electirc</option>
+                <option>Electric</option>
                 <option>Bass</option>
                 <option>Ukelele</option>
                
@@ -42,7 +42,7 @@
         </div>
         
         <div id="radio">
-            <label>Which part of the music are you most comfortable width:</label><br>
+            <label>Which part of the music are you most comfortable with:</label><br>
                 <label>Rythmn</label>
                 <input name="part" type=radio value="rythmn">
                 <label>Lead</label>
@@ -66,7 +66,7 @@
                 </select>
         </div>
         
-        <div id="checkbox">
+        <div id="checkbox1">
             <label >What kind of musics do you listen to (select all that apply):</label><br>
             <label>Classical</label>
             <input name="music" type=checkbox value="classical">
@@ -79,10 +79,27 @@
             
       
         </div>
+        <div id="checkbox2">
+                <label >Are you familair with any other instruments (select all that apply):</label><br>
+                <label>Drum</label>
+                <input name="instrument" type=checkbox value="drum">
+                <label>Violin</label>
+                <input name="nstrument" type=checkbox value="violin">
+                <label>Flute</label>
+                <input name="nstrument" type=checkbox value="flute">
+                <label>Paino</label>
+                <input name="nstrument" type=checkbox value="paino">
+                
+          
+            </div>
 
         <div id="button-div">
-            <label>Do you have any concers about guitar?</label>
+            <label>Do you want to share your experience with music:</label>
+            <textarea id="textarea"></textarea>
+
+            <label>Any final thoughts:</label>
             <textarea id="textarea"></textarea><br>
+
             <button id="button">Submit</button>
         </div>
 
