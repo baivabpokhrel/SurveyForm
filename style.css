@@ -1,20 +1,30 @@
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Mansalva:400,500);
+@import url(https://fonts.googleapis.com/css?family=Cute+Font:400,500);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,500);
+
 body{
     
     background-color:aquamarine;
     margin:50px;
+    font-family: 'Arvo';
     
 }
 #title{
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
+    font-family: 'Mansalva';
+    
 }
 #description{
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Cute Font';
 }
 #survey-form{
     background-color:azure;
+    
 }
 div{
     display:grid;
@@ -37,6 +47,7 @@ label{
     width: 200px;
     margin: 5px;
     
+    
   }
   textarea{
     
@@ -51,8 +62,10 @@ label{
     height: 20px;
     width:80px;
     margin: 8px;
+    font-family: 'Arvo';
   }
 
+  
   
 
   
