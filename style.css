@@ -40,13 +40,15 @@ label{
     margin: 10px; 
     
   }
+  
+
 
   input,select{
     
     height: 25px;
     width: 200px;
     margin: 5px;
-    
+    font-family: 'Arvo';
     
   }
   textarea{
@@ -64,9 +66,6 @@ label{
     margin: 8px;
     font-family: 'Arvo';
   }
-
-  
-  
 
   
 
