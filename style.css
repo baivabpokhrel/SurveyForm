@@ -4,24 +4,51 @@ body{
     background-color:burlywood;
     
 }
+#title{
+    text-align: center;
+    font-size: 3em;
+}
+#description{
+    text-align: center;
+    font-size: 2em;
+}
+
 div{
     display:grid;
     grid-template-columns: 1fr 1fr; 
     
-}
-#title{
-    text-align: center;
-}
-#description{
-    text-align: center;
+    
 }
 
-label,textarea{
-    display: grid;
-    justify-items: end;
+
+
+label{
+    justify-self: end;
+    margin: 10px; 
+    
   }
 
+  input,select{
+    
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+    
+  }
+  textarea{
+    
+    height: 50px;
+    width:300px;
+    margin: 8px;
 
+  }
+  
+  
+  button{
+    height: 20px;
+    width:80px;
+    margin: 8px;
+  }
 
   
 
