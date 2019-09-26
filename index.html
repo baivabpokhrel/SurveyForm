@@ -8,7 +8,7 @@
     <title>Survey Form</title>
 </head>
 <body>
-    <div id="wrapper">
+    
     <h1 id="title">Survey Form</h1>
     <p id="description">
        This is a survey for a Guitar Store 
@@ -42,11 +42,13 @@
         </div>
         
         <div id="radio">
-            <p>Which part of the music are you most comfortable width:</p>
-            
-                <input name="part" type=radio value="rythmn">Rythmn<br>
-                <input name="part" type=radio value="lead">Lead<br>
-                <input name="part" type=radio value="bass">Bass<br>
+            <p>Which part of the music are you most comfortable width</p><br>
+                <label>Rythmn</label>
+                <input name="part" type=radio value="rythmn">
+                <label>Lead</label>
+                <input name="part" type=radio value="lead">
+                <label>Bass</label>
+                <input name="part" type=radio value="bass">
       
         
         </div>
@@ -65,23 +67,27 @@
         </div>
         
         <div id="checkbox">
-            <p>What kind of musics do you listen to (Select all that apply)</p>
-            <input name="music" type=checkbox value="classical">Classical<br>
-            <input name="music" type=checkbox value="rock">Rock<br>
-            <input name="music" type=checkbox value="rnb">R&B<br>
-            <input name="music" type=checkbox value="alternative">Alternatives<br>
+            <p>What kind of musics do you listen to (Select all that apply)</p><br>
+            <label>Classical</label>
+            <input name="music" type=checkbox value="classical">
+            <label>Rock</label>
+            <input name="music" type=checkbox value="rock">
+            <label>R&B</label>
+            <input name="music" type=checkbox value="rnb">
+            <label>Alternatives</label>
+            <input name="music" type=checkbox value="alternative">
             
       
         </div>
 
         <div id="button-div">
-            <p>Do you have any concers about guitar?</p>
+            <p>Do you have any concers about guitar?</p><br>
             <textarea id="textarea"></textarea>
             <button id="button">Submit</button>
         </div>
 
     </form>
-</div>
+
    
     
 

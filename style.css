@@ -1,7 +1,28 @@
 
 body{
-    text-align:  center;
+    
     background-color:burlywood;
     
 }
+div{
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    
+    
+    
+
+}
+label,p,input{
+    display:grid;
+    justify-items: end;
+  }
+button{
+    display:grid;
+    justify-items: center;
+
+}
+
+
+
+
 
