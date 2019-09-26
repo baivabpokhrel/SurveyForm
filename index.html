@@ -8,6 +8,7 @@
     <title>Survey Form</title>
 </head>
 <body>
+    <div id="wrapper">
     <h1 id="title">Survey Form</h1>
     <p id="description">
        This is a survey for a Guitar Store 
@@ -39,6 +40,16 @@
                
             </select>
         </div>
+        
+        <div id="radio">
+            <p>Which part of the music are you most comfortable width:</p>
+            
+                <input name="part" type=radio value="rythmn">Rythmn<br>
+                <input name="part" type=radio value="lead">Lead<br>
+                <input name="part" type=radio value="bass">Bass<br>
+      
+        
+        </div>
 
         <div id="dropdown-experience">
                 <label id="dropdown-experience-label"> How many years of experience do you have playing guitar?</label>
@@ -48,11 +59,30 @@
                     <option>1-3 yrs</option>
                     <option>3-5 yrs</option>
                     <option>5+ yrs</option>
-                   
+                    
+                     
                 </select>
-            </div>
+        </div>
+        
+        <div id="checkbox">
+            <p>What kind of musics do you listen to (Select all that apply)</p>
+            <input name="music" type=checkbox value="classical">Classical<br>
+            <input name="music" type=checkbox value="rock">Rock<br>
+            <input name="music" type=checkbox value="rnb">R&B<br>
+            <input name="music" type=checkbox value="alternative">Alternatives<br>
+            
+      
+        </div>
+
+        <div id="button-div">
+            <p>Do you have any concers about guitar?</p>
+            <textarea id="textarea"></textarea>
+            <button id="button">Submit</button>
+        </div>
+
     </form>
-    </form>
+</div>
+   
     
 
 </body>
